@@ -1,0 +1,8 @@
+program loops is
+    integer counter;
+begin
+    counter := 0;
+    for (counter := counter + 1; counter <= 5)
+        putInteger(counter);
+    end for;
+end program

@@ -1,0 +1,10 @@
+program if is
+    integer value;
+begin
+    value := 10;
+    if (value == 20) then
+        putString("FAIL");
+    else
+        putString("SUCCESS");
+    end if;
+end program

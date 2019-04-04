@@ -1,0 +1,15 @@
+program scope_test is
+    integer x;
+    integer y;
+begin
+
+    x := 1;
+    y := 5;
+
+    putInteger(x + y);
+    putInteger(x * y);
+    putInteger(x / y);
+    putInteger(x & y);
+    putInteger(x | y);
+
+end program
